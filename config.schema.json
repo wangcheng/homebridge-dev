@@ -1,0 +1,21 @@
+{
+  "pluginAlias": "HisenseSmartHomePlugin",
+  "pluginType": "platform",
+  "singular": true,
+  "strictValidation": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "username": {
+        "title": "username",
+        "type": "string",
+        "required": true
+      },
+      "password": {
+        "title": "password",
+        "type": "string",
+        "required": true
+      }
+    }
+  }
+}
